@@ -1,0 +1,106 @@
+#inkadmin, #inkadmin input, #inkadmin select {
+	font-size: 10px;
+	font-family: 'Arial';
+	}
+
+#inkadmin .content_wrap {
+	background: #FFF url('../images/color_gradient.jpg') top center no-repeat;
+	padding-top: 15px;
+	margin-top: 10px;
+	}
+
+#inkadmin .wrap {
+	border: none;
+	overflow: visible;
+	}
+
+#inkadmin .wrap p {
+	font-weight: bold;
+	}
+
+#inkadmin input.color {
+	border: 0;
+	background: #FFF url('../images/colorswatch.png') top left no-repeat;
+	width: 90px;
+	height: 15px;
+	padding: 5px 0 0 10px;
+	}
+
+#inkadmin form label {
+	font-weight: bold;
+	}
+
+.ink_element {
+	margin-top: 20px;
+	padding: 0 10px 0px 10px;
+	border-top: 1px solid #CCC;
+	}
+
+.ink_element h3 a {
+	font-size: 8px;
+	position: absolute;
+	margin-top: -2px;
+	color: #777;
+	}
+
+.ink_element select {
+	margin-top: 10px;
+	}
+
+#red_bar, #green_bar, #blue_bar {
+	width: 200px;
+	height: 10px;
+	clear: left;
+	margin: 0px 0px 9px 5px;
+	}
+
+.colorfields, .colorbox {
+	float: left;
+	color: #111;
+	font-size: 9px;
+	padding: 10px;
+	}
+
+.colorfields {
+	clear: left;
+	}
+
+.colorbox input {
+	display: inline;
+	border: 0;
+	background: none;
+	color: inherit;
+	padding: 1px;
+	font-size: inherit;
+	margin-bottom: 2px;
+	font-weight: bold;
+	}
+
+.colorbox input:focus {
+	color: #CCC;
+	background: #222;
+	}
+
+#red_bar {
+	background: url('../images/colorbar_red.png') top left no-repeat;
+	}
+
+#green_bar {
+	background: url('../images/colorbar_green.png') top left no-repeat;
+	}
+
+#blue_bar {
+	background: url('../images/colorbar_blue.png') top left no-repeat;
+	}
+
+.slider, #red_bad, #green_bar, #blue_bar {
+	cursor: move;
+	}
+
+#colorfield {
+	background: #000 url('../images/colorfield.png') top left no-repeat;
+	width: 59px;
+	height: 44px;
+	float: left;
+	margin-right: 5px;
+	}

@@ -1,0 +1,147 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: My Category Order\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-08-25 11:32+0100\n"
+"PO-Revision-Date: 2008-08-25 11:32+0100\n"
+"Last-Translator: \n"
+"Language-Team: froman118 <froman118@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: mycategoryorder.php:17
+#: mycategoryorder.php:67
+#: mycategoryorder.php:283
+#: mycategoryorder.php:284
+msgid "My Category Order"
+msgstr ""
+
+#: mycategoryorder.php:68
+msgid "Choose a category from the drop down to order subcategories in that category or order the categories on this level by dragging and dropping them into the desired order."
+msgstr ""
+
+#: mycategoryorder.php:74
+msgid "Return to parent category"
+msgstr ""
+
+#: mycategoryorder.php:79
+#: mycategoryorder.php:83
+msgid "Order Subcategories"
+msgstr ""
+
+#: mycategoryorder.php:86
+msgid "Order Categories"
+msgstr ""
+
+#: mycategoryorder.php:94
+msgid "Click to Order Categories"
+msgstr ""
+
+#: mycategoryorder.php:117
+msgid "Updating Category Order..."
+msgstr ""
+
+#: mycategoryorder.php:126
+msgid "Categories updated successfully."
+msgstr ""
+
+#: mycategoryorder.php:153
+msgid "Categories"
+msgstr ""
+
+#: mycategoryorder.php:174
+msgid "Select Category"
+msgstr ""
+
+#: mycategoryorder.php:232
+msgid "Title:"
+msgstr ""
+
+#: mycategoryorder.php:237
+msgid "Show as Drop Down"
+msgstr ""
+
+#: mycategoryorder.php:241
+msgid "Show Post Counts"
+msgstr ""
+
+#: mycategoryorder.php:245
+msgid "Show Hierarchy"
+msgstr ""
+
+#: mycategoryorder.php:249
+msgid "Show Update Date"
+msgstr ""
+
+#: mycategoryorder.php:253
+msgid "Show Empty"
+msgstr ""
+
+#: mycategoryorder.php:256
+msgid "Feed Text:"
+msgstr ""
+
+#: mycategoryorder.php:260
+msgid "Feed Image URL:"
+msgstr ""
+
+#: mycategoryorder.php:263
+msgid "Example: copy this icon icon,"
+msgstr ""
+
+#: mycategoryorder.php:266
+msgid "Exclude:"
+msgstr ""
+
+#: mycategoryorder.php:270
+msgid "Include:"
+msgstr ""
+
+#: mycategoryorder.php:280
+msgid "Set the order in which categories will appear in the sidebar"
+msgstr ""
+
+#: mycategoryorder.php:319
+msgid "Error while writing to the file"
+msgstr ""
+
+#: mycategoryorder.php:321
+msgid "File"
+msgstr ""
+
+#: mycategoryorder.php:321
+msgid "has been patched successfully"
+msgstr ""
+
+#: mycategoryorder.php:326
+msgid "The file"
+msgstr ""
+
+#: mycategoryorder.php:326
+msgid "is not writable"
+msgstr ""
+
+#: mycategoryorder.php:327
+msgid "You have 2 options"
+msgstr ""
+
+#: mycategoryorder.php:328
+msgid "Change the permissions on the file and click on My Category Order again to patch it automatically"
+msgstr ""
+
+#: mycategoryorder.php:329
+msgid "Modify the file manually"
+msgstr ""
+
+#: mycategoryorder.php:330
+msgid "After line number"
+msgstr ""
+
+#: mycategoryorder.php:332
+msgid "add the following code:"
+msgstr ""
+

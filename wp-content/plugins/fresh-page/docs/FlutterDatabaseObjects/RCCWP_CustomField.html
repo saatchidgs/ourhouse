@@ -1,0 +1,559 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<title>Docs For Class RCCWP_CustomField</title>
+	<link rel="stylesheet" type="text/css" id="layout" href="../media/layout.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="../media/style.css" media="all">
+	<link rel="stylesheet" type="text/css" href="../media/print.css" media="print">
+</head>
+
+<body>
+<div id="header">
+	<div id="navLinks">
+        
+                                    
+                            	        [ <a href="../classtrees_FlutterDatabaseObjects.html">Class Tree: FlutterDatabaseObjects</a> ]
+            [ <a href="../elementindex_FlutterDatabaseObjects.html">Index: FlutterDatabaseObjects</a> ]
+        		[ <a href="../elementindex.html">All elements</a> ]		
+	</div>
+	<div id="packagePosition">
+		<div id="packageTitle2">FlutterDatabaseObjects</div>
+		<div id="packageTitle">FlutterDatabaseObjects</div>
+		<div id="elementPath"> &middot; </div>
+	</div>
+</div>
+
+<div id="nav" class="small">
+	<div id="packages">
+		Packages:
+					<p><a href="../li_FlutterDatabaseObjects.html">FlutterDatabaseObjects</a></p>
+			</div>
+
+				<div id="index">
+			<div id="files">
+								Files:<br>
+								<a href="../FlutterDatabaseObjects/_RCCWP_CustomField.php.html">		RCCWP_CustomField.php
+		</a><br>
+			<a href="../FlutterDatabaseObjects/_RCCWP_CustomGroup.php.html">		RCCWP_CustomGroup.php
+		</a><br>
+			<a href="../FlutterDatabaseObjects/_RCCWP_CustomWriteModule.php.html">		RCCWP_CustomWriteModule.php
+		</a><br>
+			<a href="../FlutterDatabaseObjects/_RCCWP_CustomWritePanel.php.html">		RCCWP_CustomWritePanel.php
+		</a><br>
+				</div>
+			<div id="interfaces">
+							</div>
+			<div id="classes">
+				Classes:<br>
+								<a href="../FlutterDatabaseObjects/RCCWP_CustomField.html">		RCCWP_CustomField
+		</a><br>
+			<a href="../FlutterDatabaseObjects/RCCWP_CustomGroup.html">		RCCWP_CustomGroup
+		</a><br>
+			<a href="../FlutterDatabaseObjects/RCCWP_CustomWriteModule.html">		RCCWP_CustomWriteModule
+		</a><br>
+			<a href="../FlutterDatabaseObjects/RCCWP_CustomWritePanel.html">		RCCWP_CustomWritePanel
+		</a><br>
+				</div>
+		</div>
+	</div>
+
+<div id="body">
+	    		<h1>Class: RCCWP_CustomField</h1>
+	<p style="margin: 0px;">Source Location: /RCCWP_CustomField.php</p>
+	
+
+<div class="leftcol">
+	<h3><a href="#class_details">Class Overview</a> <span class="smalllinenumber">[line 12]</span></h3>
+	<div id="classTree"><pre></pre>
+</div>
+	<div class="small">
+	<p>Create/Edit/Delete custom fields</p>
+		<h4>Author(s):</h4>
+	<ul>
+			</ul>
+	<h4>Version:</h4>
+	<ul>
+			</ul>
+
+	<h4>Copyright:</h4>
+	<ul>
+			</li>
+	</div>
+</div>
+
+<div class="middlecol">
+	<h3><a href="#class_vars">Variables</a></h3>
+	<ul class="small">
+			</ul>
+	<h3><a href="#class_consts">Constants</a></h3>
+	<ul class="small">
+			</ul>
+</div>
+<div class="rightcol">
+	<h3><a href="#class_methods">Methods</a></h3>
+	<ul class="small">
+				<li><a href="../FlutterDatabaseObjects/RCCWP_CustomField.html#methodCreate">Create</a></li>
+				<li><a href="../FlutterDatabaseObjects/RCCWP_CustomField.html#methodDelete">Delete</a></li>
+				<li><a href="../FlutterDatabaseObjects/RCCWP_CustomField.html#methodGet">Get</a></li>
+				<li><a href="../FlutterDatabaseObjects/RCCWP_CustomField.html#methodGetCustomFieldTypes">GetCustomFieldTypes</a></li>
+				<li><a href="../FlutterDatabaseObjects/RCCWP_CustomField.html#methodGetCustomFieldValues">GetCustomFieldValues</a></li>
+				<li><a href="../FlutterDatabaseObjects/RCCWP_CustomField.html#methodGetFieldDuplicates">GetFieldDuplicates</a></li>
+				<li><a href="../FlutterDatabaseObjects/RCCWP_CustomField.html#methodGetFieldGroupDuplicates">GetFieldGroupDuplicates</a></li>
+				<li><a href="../FlutterDatabaseObjects/RCCWP_CustomField.html#methodGetIDByName">GetIDByName</a></li>
+				<li><a href="../FlutterDatabaseObjects/RCCWP_CustomField.html#methodUpdate">Update</a></li>
+			</ul>
+</div>
+
+<div id="content">
+<hr>
+	<div class="contents">
+	</div>
+
+	<div class="leftCol">
+    	<h2>Inherited Variables</h2>
+		<h2>Inherited Constants</h2>
+		</div>
+
+	<div class="rightCol">
+	<h2>Inherited Methods</h2>
+		</div>
+	<br clear="all">
+	<hr>
+
+	<a name="class_details"></a>
+	<h2>Class Details</h2>
+	<p align="center"><strong>Create/Edit/Delete custom fields
+</strong></p>
+	<p class="small" style="color: #334B66;">[ <a href="#top">Top</a> ]</p>
+
+	<hr>
+	<a name="class_vars"></a>
+	<h2>Class Variables</h2>
+	
+	<hr>
+	<a name="class_methods"></a>
+	<h2>Class Methods</h2>
+	
+	<a name="methodCreate"></a>
+	<p></p>
+	<h3>Create</h3>
+	<div class="indent">
+		<p>
+		<code>the Create(
+id
+$customGroupId, string
+$name, string
+$label, [integer
+$order = 1], [integer
+$required_field = 0], integer
+$type, [array
+$options = null], [array
+$default_value = null], [array
+$properties = null], 
+$duplicate)</code>
+		</p>
+	
+		<p class="linenumber">[line 35]</p>
+		<p align="center"><strong>Create a new custom field
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>return</b> - new field id</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type">id</span>
+		<b>$customGroupId</b> 
+		- 
+		the id of the group that will contain the field</li>
+			<li>
+		<span class="type">string</span>
+		<b>$name</b> 
+		- 
+		the name of the field, the name is used to uniquely identify the field                              when retrieving its value.</li>
+			<li>
+		<span class="type">string</span>
+		<b>$label</b> 
+		- 
+		the label of the field, the label is displayed beside the field                              in Write tab.</li>
+			<li>
+		<span class="type">integer</span>
+		<b>$order</b> 
+		- 
+		the order of the field when it is displayed in                              the Write tab.</li>
+			<li>
+		<span class="type">integer</span>
+		<b>$required_field</b> 
+		- 
+		whether this field is a required field. Required fields                              doesn't allow users to save a post if they are null.</li>
+			<li>
+		<span class="type">integer</span>
+		<b>$type</b> 
+		- 
+		the type of the field. Use $FIELD_TYPES defined in RCCWP_Constant.php</li>
+			<li>
+		<span class="type">array</span>
+		<b>$options</b> 
+		- 
+		array of strings that represent the list of the field if                              its type is list.</li>
+			<li>
+		<span class="type">array</span>
+		<b>$default_value</b> 
+		- 
+		array of strings that represent default value(s) of                              of the field if    its type is list.</li>
+			<li>
+		<span class="type">array</span>
+		<b>$properties</b> 
+		- 
+		an array containing extra properties of the field.</li>
+			<li>
+		<span class="type"></span>
+		<b>$duplicate</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodDelete"></a>
+	<p></p>
+	<h3>Delete</h3>
+	<div class="indent">
+		<p>
+		<code>void Delete(
+[integer
+$customFieldId = null])</code>
+		</p>
+	
+		<p class="linenumber">[line 107]</p>
+		<p align="center"><strong>Delete a field
+</strong></p>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type">integer</span>
+		<b>$customFieldId</b> 
+		- 
+		field id</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodGet"></a>
+	<p></p>
+	<h3>Get</h3>
+	<div class="indent">
+		<p>
+		<code>an Get(
+integer
+$customFieldId)</code>
+		</p>
+	
+		<p class="linenumber">[line 138]</p>
+		<p align="center"><strong>Get the field information including properties, options and default value(s)
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>return</b> - object containing information about fields. The object contains              3 objects: properties, options and default_value</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type">integer</span>
+		<b>$customFieldId</b> 
+		- 
+		field id</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodGetCustomFieldTypes"></a>
+	<p></p>
+	<h3>GetCustomFieldTypes</h3>
+	<div class="indent">
+		<p>
+		<code>a GetCustomFieldTypes(
+[integer
+$customFieldTypeId = null])</code>
+		</p>
+	
+		<p class="linenumber">[line 162]</p>
+		<p align="center"><strong>Retrievies information about a specified type
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>return</b> - list/object containing information about the specified type. The information              includes id, name, description, has_options, has_properties, and              allow_multiple_values (whether fields of that type can have more than one default value)</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type">integer</span>
+		<b>$customFieldTypeId</b> 
+		- 
+		the type id, if null, a list of all types will be returned</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodGetCustomFieldValues"></a>
+	<p></p>
+	<h3>GetCustomFieldValues</h3>
+	<div class="indent">
+		<p>
+		<code>a GetCustomFieldValues(
+boolean
+$single, integer
+$postId, string
+$customFieldName, [integer
+$groupIndex = 1], [integer
+$fieldIndex = 1])</code>
+		</p>
+	
+		<p class="linenumber">[line 214]</p>
+		<p align="center"><strong>Retrieves the value of a custom field for a specified post
+</strong></p>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type">boolean</span>
+		<b>$single</b> 
+		- 
+		</li>
+			<li>
+		<span class="type">integer</span>
+		<b>$postId</b> 
+		- 
+		</li>
+			<li>
+		<span class="type">string</span>
+		<b>$customFieldName</b> 
+		- 
+		</li>
+			<li>
+		<span class="type">integer</span>
+		<b>$groupIndex</b> 
+		- 
+		</li>
+			<li>
+		<span class="type">integer</span>
+		<b>$fieldIndex</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodGetFieldDuplicates"></a>
+	<p></p>
+	<h3>GetFieldDuplicates</h3>
+	<div class="indent">
+		<p>
+		<code>number GetFieldDuplicates(
+integer
+$postId, 
+$fieldName, 
+$groupIndex, integer
+$fieldID)</code>
+		</p>
+	
+		<p class="linenumber">[line 262]</p>
+		<p align="center"><strong>Get number of group duplicates given field name. The function returns 1  if there are no duplicates (just he original group), 2 if there is one  duplicate and so on.
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>return</b> - of groups</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type">integer</span>
+		<b>$postId</b> 
+		- 
+		post id</li>
+			<li>
+		<span class="type">integer</span>
+		<b>$fieldID</b> 
+		- 
+		the name of any field in the group</li>
+			<li>
+		<span class="type"></span>
+		<b>$fieldName</b> 
+		- 
+		</li>
+			<li>
+		<span class="type"></span>
+		<b>$groupIndex</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodGetFieldGroupDuplicates"></a>
+	<p></p>
+	<h3>GetFieldGroupDuplicates</h3>
+	<div class="indent">
+		<p>
+		<code>number GetFieldGroupDuplicates(
+integer
+$postId, 
+$fieldName, integer
+$fieldID)</code>
+		</p>
+	
+		<p class="linenumber">[line 246]</p>
+		<p align="center"><strong>Get number of group duplicates given field name. The function returns 1  if there are no duplicates (just he original group), 2 if there is one  duplicate and so on.
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>return</b> - of groups</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type">integer</span>
+		<b>$postId</b> 
+		- 
+		post id</li>
+			<li>
+		<span class="type">integer</span>
+		<b>$fieldID</b> 
+		- 
+		the name of any field in the group</li>
+			<li>
+		<span class="type"></span>
+		<b>$fieldName</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodGetIDByName"></a>
+	<p></p>
+	<h3>GetIDByName</h3>
+	<div class="indent">
+		<p>
+		<code>custom GetIDByName(
+string
+$customFieldName)</code>
+		</p>
+	
+		<p class="linenumber">[line 275]</p>
+		<p align="center"><strong>Retrieves the id of a custom field given field name for the current post.
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>return</b> - field id</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type">string</span>
+		<b>$customFieldName</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodUpdate"></a>
+	<p></p>
+	<h3>Update</h3>
+	<div class="indent">
+		<p>
+		<code>void Update(
+integer
+$customFieldId, string
+$name, string
+$label, [integer
+$order = 1], [integer
+$required_field = 0], integer
+$type, [array
+$options = null], [array
+$default_value = null], [array
+$properties = null], 
+$duplicate)</code>
+		</p>
+	
+		<p class="linenumber">[line 320]</p>
+		<p align="center"><strong>Updates the properties of a custom field.
+</strong></p>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type">integer</span>
+		<b>$customFieldId</b> 
+		- 
+		the id of the field to be updated</li>
+			<li>
+		<span class="type">string</span>
+		<b>$name</b> 
+		- 
+		the name of the field, the name is used to uniquely identify the field                              when retrieving its value.</li>
+			<li>
+		<span class="type">string</span>
+		<b>$label</b> 
+		- 
+		the label of the field, the label is displayed beside the field                              in Write tab.</li>
+			<li>
+		<span class="type">integer</span>
+		<b>$order</b> 
+		- 
+		the order of the field when it is displayed in                              the Write tab.</li>
+			<li>
+		<span class="type">integer</span>
+		<b>$required_field</b> 
+		- 
+		whether this field is a required field. Required fields                              doesn't allow users to save a post if they are null.</li>
+			<li>
+		<span class="type">integer</span>
+		<b>$type</b> 
+		- 
+		the type of the field. Use $FIELD_TYPES defined in RCCWP_Constant.php</li>
+			<li>
+		<span class="type">array</span>
+		<b>$options</b> 
+		- 
+		array of strings that represent the list of the field if                              its type is list.</li>
+			<li>
+		<span class="type">array</span>
+		<b>$default_value</b> 
+		- 
+		array of strings that represent default value(s) of                              of the field if    its type is list.</li>
+			<li>
+		<span class="type">array</span>
+		<b>$properties</b> 
+		- 
+		an array containing extra properties of the field.</li>
+			<li>
+		<span class="type"></span>
+		<b>$duplicate</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+
+	<hr>
+	<a name="class_consts"></a>
+	<h2>Class Constants</h2>
+	</div>
+	<div id="credit">
+		<hr>
+		Documentation generated on Tue, 09 Sep 2008 12:47:59 +0000 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.2</a>
+	</div>
+</div>
+</body>
+</html>

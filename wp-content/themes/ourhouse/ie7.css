@@ -1,0 +1,22 @@
+#searchsubmit{
+	letter-spacing: 999em;
+	float: right;
+	margin-left: 0px;
+}
+
+.catelogue-feature ul.catelogueLinks {
+width:80%;
+}
+
+.category-destinations .catList {
+overflow:hidden;
+display: inline;
+}
+
+#contentGroup{display: inline; overflow:hidden;}
+
+.category-destinations #footer {margin-top: 20px;}
+
+.additional-info{clear: both;}
+
+.download {clear: left;}

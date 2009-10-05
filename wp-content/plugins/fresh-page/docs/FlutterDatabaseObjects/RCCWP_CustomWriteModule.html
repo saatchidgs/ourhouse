@@ -1,0 +1,369 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<title>Docs For Class RCCWP_CustomWriteModule</title>
+	<link rel="stylesheet" type="text/css" id="layout" href="../media/layout.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="../media/style.css" media="all">
+	<link rel="stylesheet" type="text/css" href="../media/print.css" media="print">
+</head>
+
+<body>
+<div id="header">
+	<div id="navLinks">
+        
+                                    
+                            	        [ <a href="../classtrees_FlutterDatabaseObjects.html">Class Tree: FlutterDatabaseObjects</a> ]
+            [ <a href="../elementindex_FlutterDatabaseObjects.html">Index: FlutterDatabaseObjects</a> ]
+        		[ <a href="../elementindex.html">All elements</a> ]		
+	</div>
+	<div id="packagePosition">
+		<div id="packageTitle2">FlutterDatabaseObjects</div>
+		<div id="packageTitle">FlutterDatabaseObjects</div>
+		<div id="elementPath"> &middot; </div>
+	</div>
+</div>
+
+<div id="nav" class="small">
+	<div id="packages">
+		Packages:
+					<p><a href="../li_FlutterDatabaseObjects.html">FlutterDatabaseObjects</a></p>
+			</div>
+
+				<div id="index">
+			<div id="files">
+								Files:<br>
+								<a href="../FlutterDatabaseObjects/_RCCWP_CustomField.php.html">		RCCWP_CustomField.php
+		</a><br>
+			<a href="../FlutterDatabaseObjects/_RCCWP_CustomGroup.php.html">		RCCWP_CustomGroup.php
+		</a><br>
+			<a href="../FlutterDatabaseObjects/_RCCWP_CustomWriteModule.php.html">		RCCWP_CustomWriteModule.php
+		</a><br>
+			<a href="../FlutterDatabaseObjects/_RCCWP_CustomWritePanel.php.html">		RCCWP_CustomWritePanel.php
+		</a><br>
+				</div>
+			<div id="interfaces">
+							</div>
+			<div id="classes">
+				Classes:<br>
+								<a href="../FlutterDatabaseObjects/RCCWP_CustomField.html">		RCCWP_CustomField
+		</a><br>
+			<a href="../FlutterDatabaseObjects/RCCWP_CustomGroup.html">		RCCWP_CustomGroup
+		</a><br>
+			<a href="../FlutterDatabaseObjects/RCCWP_CustomWriteModule.html">		RCCWP_CustomWriteModule
+		</a><br>
+			<a href="../FlutterDatabaseObjects/RCCWP_CustomWritePanel.html">		RCCWP_CustomWritePanel
+		</a><br>
+				</div>
+		</div>
+	</div>
+
+<div id="body">
+	    		<h1>Class: RCCWP_CustomWriteModule</h1>
+	<p style="margin: 0px;">Source Location: /RCCWP_CustomWriteModule.php</p>
+	
+
+<div class="leftcol">
+	<h3><a href="#class_details">Class Overview</a> <span class="smalllinenumber">[line 12]</span></h3>
+	<div id="classTree"><pre></pre>
+</div>
+	<div class="small">
+	<p>Create/edit/delete modules</p>
+		<h4>Author(s):</h4>
+	<ul>
+			</ul>
+	<h4>Version:</h4>
+	<ul>
+			</ul>
+
+	<h4>Copyright:</h4>
+	<ul>
+			</li>
+	</div>
+</div>
+
+<div class="middlecol">
+	<h3><a href="#class_vars">Variables</a></h3>
+	<ul class="small">
+			</ul>
+	<h3><a href="#class_consts">Constants</a></h3>
+	<ul class="small">
+			</ul>
+</div>
+<div class="rightcol">
+	<h3><a href="#class_methods">Methods</a></h3>
+	<ul class="small">
+				<li><a href="../FlutterDatabaseObjects/RCCWP_CustomWriteModule.html#methodCreate">Create</a></li>
+				<li><a href="../FlutterDatabaseObjects/RCCWP_CustomWriteModule.html#methodDelete">Delete</a></li>
+				<li><a href="../FlutterDatabaseObjects/RCCWP_CustomWriteModule.html#methodGet">Get</a></li>
+				<li><a href="../FlutterDatabaseObjects/RCCWP_CustomWriteModule.html#methodGetByName">GetByName</a></li>
+				<li><a href="../FlutterDatabaseObjects/RCCWP_CustomWriteModule.html#methodGetCustomModules">GetCustomModules</a></li>
+				<li><a href="../FlutterDatabaseObjects/RCCWP_CustomWriteModule.html#methodImport">Import</a></li>
+				<li><a href="../FlutterDatabaseObjects/RCCWP_CustomWriteModule.html#methodUpdate">Update</a></li>
+			</ul>
+</div>
+
+<div id="content">
+<hr>
+	<div class="contents">
+	</div>
+
+	<div class="leftCol">
+    	<h2>Inherited Variables</h2>
+		<h2>Inherited Constants</h2>
+		</div>
+
+	<div class="rightCol">
+	<h2>Inherited Methods</h2>
+		</div>
+	<br clear="all">
+	<hr>
+
+	<a name="class_details"></a>
+	<h2>Class Details</h2>
+	<p align="center"><strong>Create/edit/delete modules
+</strong></p>
+	<p class="small" style="color: #334B66;">[ <a href="#top">Top</a> ]</p>
+
+	<hr>
+	<a name="class_vars"></a>
+	<h2>Class Variables</h2>
+	
+	<hr>
+	<a name="class_methods"></a>
+	<h2>Class Methods</h2>
+	
+	<a name="methodCreate"></a>
+	<p></p>
+	<h3>Create</h3>
+	<div class="indent">
+		<p>
+		<code>the Create(
+string
+$name, string
+$description, [boolean
+$create_folders = true])</code>
+		</p>
+	
+		<p class="linenumber">[line 44]</p>
+		<p align="center"><strong>Create a new module
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>return</b> - id of the module or -1 if the module name already exist</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type">string</span>
+		<b>$name</b> 
+		- 
+		module name, the name will be sanitized.</li>
+			<li>
+		<span class="type">string</span>
+		<b>$description</b> 
+		- 
+		module description</li>
+			<li>
+		<span class="type">boolean</span>
+		<b>$create_folders</b> 
+		- 
+		whether to create a folder for the module containing sample template</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodDelete"></a>
+	<p></p>
+	<h3>Delete</h3>
+	<div class="indent">
+		<p>
+		<code>void Delete(
+[integer
+$customWriteModuleId = null])</code>
+		</p>
+	
+		<p class="linenumber">[line 148]</p>
+		<p align="center"><strong>Deletes a module and all its child fields as well as the module folder.
+</strong></p>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type">integer</span>
+		<b>$customWriteModuleId</b> 
+		- 
+		module id.</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodGet"></a>
+	<p></p>
+	<h3>Get</h3>
+	<div class="indent">
+		<p>
+		<code>an Get(
+integer
+$customWriteModuleId)</code>
+		</p>
+	
+		<p class="linenumber">[line 209]</p>
+		<p align="center"><strong>Retrieves the basic information of the module.
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>return</b> - object containing id, name and description</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type">integer</span>
+		<b>$customWriteModuleId</b> 
+		- 
+		module id</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodGetByName"></a>
+	<p></p>
+	<h3>GetByName</h3>
+	<div class="indent">
+		<p>
+		<code>an GetByName(
+string
+$customWriteModuleName)</code>
+		</p>
+	
+		<p class="linenumber">[line 227]</p>
+		<p align="center"><strong>Retrieves the basic information of the module given module name.
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>return</b> - object containing id, name and description</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type">string</span>
+		<b>$customWriteModuleName</b> 
+		- 
+		module name</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodGetCustomModules"></a>
+	<p></p>
+	<h3>GetCustomModules</h3>
+	<div class="indent">
+		<p>
+		<code>array GetCustomModules(
+)</code>
+		</p>
+	
+		<p class="linenumber">[line 20]</p>
+		<p align="center"><strong>Get all modules
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>return</b> - of objects containing all modules.</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodImport"></a>
+	<p></p>
+	<h3>Import</h3>
+	<div class="indent">
+		<p>
+		<code>the Import(
+string
+$zipFilePath, [string
+$moduleName = false])</code>
+		</p>
+	
+		<p class="linenumber">[line 301]</p>
+		<p align="center"><strong>Import a module given the zip file path. Importing a module means inserting it in  the database and copying its folder to modules folder. If a module with the same  name already exists, the function will append a number to the module name. You must  have either php ZipArchive extension or unzip program installed.
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>return</b> - module id, or false in case of error.</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type">string</span>
+		<b>$zipFilePath</b> 
+		- 
+		the full path of the zip file</li>
+			<li>
+		<span class="type">string</span>
+		<b>$moduleName</b> 
+		- 
+		the module name, if this value if false, the function will                              use the zip filename as the module name. The default value is false</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodUpdate"></a>
+	<p></p>
+	<h3>Update</h3>
+	<div class="indent">
+		<p>
+		<code>the Update(
+integer
+$customWriteModuleId, string
+$name, string
+$description)</code>
+		</p>
+	
+		<p class="linenumber">[line 248]</p>
+		<p align="center"><strong>Updates the basic information of a module
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>return</b> - id of the module or -1 if the module name already exist</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type">integer</span>
+		<b>$customWriteModuleId</b> 
+		- 
+		the id of the module that will be updated</li>
+			<li>
+		<span class="type">string</span>
+		<b>$name</b> 
+		- 
+		new name</li>
+			<li>
+		<span class="type">string</span>
+		<b>$description</b> 
+		- 
+		new description</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+
+	<hr>
+	<a name="class_consts"></a>
+	<h2>Class Constants</h2>
+	</div>
+	<div id="credit">
+		<hr>
+		Documentation generated on Tue, 09 Sep 2008 12:47:59 +0000 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.2</a>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+CHANGELOG and HISTORY for Flutter
+_________________________________
+
+
+= KEY ===================
+    # Breaks back-compat
+    ! Feature
+    - Bugfix
+      + Sub-comment
+    . Internal change
+==========================
+
+0.2.26, released 2008-09-15
+- Fixed role management bugs.
+
+0.2.25, released 2008-09-14
+! Applied EIP for text fields and text areas.
+
+0.2.24, released 2008-09-09
+- After creating a panel, the user is redirected to the panel page instead of panels page.
+- Fixed the fields list of Write Panels of type Page.
+
+0.2.23, released 2008-09-07
+! Fields and groups are transfered from Modules to Write Panels.
+! Groups can be added at the right side of the post write menu.
+! If you are creating a new field and the name of the field already exist, you will be able to copy to the current panel. 
+
+0.2.22, released 2008-08-27
+! Create an option in Flutter settings that allows the user to switch between flash and browser upload.
+- Saving a post in a panel with no fields raises errors.
+- flutter was over-ridding the main rich text editor settings.
+- Saving a post without changing date field doesn’t save the date, it should save today’s date (default date).
+
+
+0.2.21, released 2008-08-21
+! Enhancements to Edit-n-Place including proper rendering on any theme.
+! Supporting flash-based upload.
+- Saving a post in a panel with no fields raises errors.
+
+0.2.20, released 200die8-08-14
+! The ability to duplicate fields and groups.
+! Passing module name as parameter to get function.
+- The image thumbnail/edit button show up on the right side instead of left.
+
+0.2.19, released 2008-08-7
+- Retrieving Checkbox-list and listboxes as array in get() function.
+
+0.2.18, released 2008-08-6
+! The ability to mark a field as Required.
+! Automatically update image thumbnail when it is uploaded.
+! Upload files once it is selected.
+- A bug in SQL statement in Main.php.
+- Adding apostrophes in fields options list.
+
+0.2.17, released 2008-07-29
+! A complete Flutter API with PHPdoc is generated in /docs/.
+
+0.2.16, released 2008-07-28
+! Checks whether folder permissions are set properly.
+! Display messages if the user has no modules.
+! Use php zip library to unzip modules if possible
+! Integrate more closely with the Role Manager plugin by creating roles for Flutter functionalities.
+- Removing '<?=' from RCCWP_CustomWriteModulePage.php
+- Fixing bugs in Layout tab on IE6
+
+0.2.15, released 2008-07-21
+- Fixed a bug in changing module template in Module Settings overlay.
+
+0.2.14, released 2008-07-20
+- Fixed a bug on installing Flutter on php4 which says: "Fatal error: Cannot redeclare add_canvas_pages() "
+
+0.2.13, released 2008-07-16
+- Tested on wordpress 2.6.
+- Upgrading Flutter tables when a new Flutter version is installed.
+- Cleaning canvas obselete code.
+
+0.2.12, released 2008-07-15
+- Hide the "Style" tab by default
+! Use "echo" for printing from PHP to avoid php backward incompatability.
+
+0.2.11, released 2008-07-13
+- Default template is not set automatically in Layout tab.
+
+0.2.10, released 2008-07-10
+! Styling Flutter admin pages.
+
+0.2.9, released 2008-06-25
+! The ability to import modules automatically by copying them into 'default_modules' folder.
+
+0.2.8, released 2008-06-19
+- Upload form was not displayed properly with wp-post-rating plugin.
+
+0.2.7, released 2008-06-16
+! A new function named get_module to get the module directly without the need define it Layout.
+! A new option is added to Write Panel that always shows the write panel in management menu.
+
+0.2.6, released 2008-06-14
+! Hide Canvas and Hide Ink options in the options page.
+! Add a "reset modules" button.
+! Module description is transfered from configure.xml to the modules page.
+- Populate template sizes combo-box based on selected item in template names in module settings.
+- Tags area doesn't dissapear in write panels for WPMU even though you uncheck it.
+- If there are certain zones that have modules assigned to them but are no longer present in the canvas.php file, the modules should go back to the shelf.
+
+0.2.5, released 2008-06-10
+! Added a new variable type named 'fileupload' to configure.xml that allows uploading files .
+! The audio player is bundled with Flutter.
+- Solved two bugs in date field, adding multiple dates and editing date format.
+
+0.2.3, released 2008-06-07
+! New improvements to Canvas admin interface.
+! HTML Purifier is integrated into Flutter.
+- Adding underscore to field name makes the field value unaccessible.
